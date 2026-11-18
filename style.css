@@ -93,6 +93,7 @@ li {
     text-align: center;
     border: none;
     color: #7342d6;  
+    display: none;
 }
 
 .menu__backdrop {
@@ -107,7 +108,7 @@ li {
     align-items: center;
     transition: all 300ms ease;
     opacity: 0;
-    visibility: visible;
+    visibility: hidden;
 }
 
 .menu--open .menu__backdrop {
@@ -115,7 +116,7 @@ li {
     opacity: 1;
 }
 
-.menu__open {
+.menu--open {
     max-height: 100vh;
     overflow-y: hidden;
 }
